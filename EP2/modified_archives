@@ -1,2 +1,3 @@
-asd.c
-qwe.c
+/usr/src/servers/is/dmp_kernel.c
+/usr/src/servers/is/dmp.c
+/usr/src/servers/is/proto.h
