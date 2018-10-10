@@ -8,3 +8,8 @@ do_fork.c -> Teriamos que criar um arquivo pra funcao
 Tabela de processos de fs,pm
 
 pm -> forkexit
+
+
+
+
+VER O QUER p_rts_flags FAZ
