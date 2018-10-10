@@ -1,0 +1,10 @@
+callnr.h -> Guarda os numeros das system calls
+com.h -> Guarda os numeros das system calls
+syslib.h -> Prototipos de funcao de system calls
+system.c -> mapping de chamada de system a funcao
+system.h -> prototipo da funcao a ser chamada na syscall
+do_fork.c -> Teriamos que criar um arquivo pra funcao
+
+Tabela de processos de fs,pm
+
+pm -> forkexit
