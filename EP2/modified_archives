@@ -1,3 +1,10 @@
 /usr/src/servers/is/dmp_kernel.c
 /usr/src/servers/is/dmp.c
 /usr/src/servers/is/proto.h
+
+/usr/src/kernel/system/do_chpriority.c
+/usr/src/include/minix/com.h
+/usr/src/include/minix/syslib.h
+/usr/src/kernel/config.h
+/usr/src/kernel/system.h
+/usr/src/kernel/system.c
