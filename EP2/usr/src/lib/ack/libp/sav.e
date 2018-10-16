@@ -1,5 +1,5 @@
 #
-; $Header: /cvsup/minix/src/lib/ack/libp/sav.e,v 1.1 2005/10/10 15:27:47 beng Exp $
+; $Header$
 ;  (c) copyright 1983 by the Vrije Universiteit, Amsterdam, The Netherlands.
 ; 
 ;           This product is part of the Amsterdam Compiler Kit.

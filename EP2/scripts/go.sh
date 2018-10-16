@@ -20,18 +20,23 @@ then
   echo "Estou no MINIX"
   mtools copy -nv "a:/timestamp" /
   mtools copy -nv "a:/modified_archives" /
-  files_list=$( get_modified_files )
-  for i in $files_list
-  do
-    echo "Arquivo: $i"
-    mtools copy -nv "a:/$(basename $i)" "$i"
-  done
+  mtools copy -nv "a:/teste.c" /root/
 
   echo "------------------"
   cat /timestamp
   echo "------------------"
 
   read -p "Press enter to continue" _null
+
+  files_list=$( get_modified_files )
+  for i in $files_list
+  do
+    echo "Arquivo: $i"
+    mtools copy -nv "a:$i" "$i"
+  done
+
+  read -p "Press enter to continue" _null 
+
   cd /usr/src
   make world 2> ERRORS
   echo "----------------ERROS----------------"
@@ -50,9 +55,9 @@ else
   files=""
   for i in $( get_modified_files )
   do
-    files="$files ..$i"
+    sudo mkdir -p $floppy_path$(dirname $i) && sudo cp -rv ..$i $floppy_path$i
   done
-  sudo cp -rv $files ./go.sh ../modified_archives ./timestamp $floppy_path
+  sudo cp -rv ./go.sh ../modified_archives ./timestamp ../teste.c $floppy_path
   rm -v timestamp
 fi
 

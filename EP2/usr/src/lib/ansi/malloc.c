@@ -1,4 +1,4 @@
-/* $Header: /cvsup/minix/src/lib/ansi/malloc.c,v 1.1.1.1 2005/04/21 14:56:05 beng Exp $ */
+/* $Header$ */
 
 /* replace undef by define */
 #undef	 DEBUG		/* check assertions */

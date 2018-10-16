@@ -4,7 +4,7 @@
  * Porting to Minix 2.0.0
  * Author:	Giovanni Falzoni <gfalzoni@pointest.com>
  *
- * $Id: flock.c,v 1.1 2005/10/31 14:31:05 beng Exp $
+ * $Id$
  */
 #include <sys/types.h>
 #include <fcntl.h>

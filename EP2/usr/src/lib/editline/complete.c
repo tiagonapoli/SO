@@ -1,4 +1,4 @@
-/*  $Revision: 1.1.1.1 $
+/*  $Revision$
 **
 **  History and file completion functions for editline library.
 */

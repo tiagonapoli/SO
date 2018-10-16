@@ -6,7 +6,7 @@
 /*
   Module:	default modula-2 trap handler
   Author:	Ceriel J.H. Jacobs
-  Version:	$Header: /cvsup/minix/src/lib/ack/libm2/catch.c,v 1.1 2005/10/10 15:27:46 beng Exp $
+  Version:	$Header$
 */
 #include <em_abs.h>
 #include <m2_traps.h>

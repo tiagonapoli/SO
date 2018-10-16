@@ -1,7 +1,7 @@
 /*
  * gmtime - convert the calendar time into broken down time
  */
-/* $Header: /cvsup/minix/src/lib/ansi/gmtime.c,v 1.1.1.1 2005/04/21 14:56:05 beng Exp $ */
+/* $Header$ */
 
 #include	<time.h>
 #include	<limits.h>

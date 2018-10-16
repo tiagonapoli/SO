@@ -1,4 +1,4 @@
-/* $Header: /cvsup/minix/src/lib/ack/libp/rf.c,v 1.1 2005/10/10 15:27:47 beng Exp $ */
+/* $Header$ */
 /*
  * (c) copyright 1983 by the Vrije Universiteit, Amsterdam, The Netherlands.
  *

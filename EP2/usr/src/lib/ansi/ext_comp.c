@@ -3,7 +3,7 @@
   See the copyright notice in the ACK home directory, in the file "Copyright".
 */
 
-/* $Id: ext_comp.c,v 1.1.1.1 2005/04/21 14:56:05 beng Exp $ */
+/* $Id$ */
 
 /* extended precision arithmetic for the strtod() and cvt() routines */
 

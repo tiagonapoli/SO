@@ -6,7 +6,7 @@
 /*
   Module:	integer abs function
   Author:	Ceriel J.H. Jacobs
-  Version:	$Header: /cvsup/minix/src/lib/ack/libm2/absi.c,v 1.1 2005/10/10 15:27:46 beng Exp $
+  Version:	$Header$
 */
 
 absi(i)

@@ -1,3 +1,0 @@
-depend-ack:
-	rm .depend-ack
-	touch .depend-ack

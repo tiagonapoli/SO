@@ -1,4 +1,0 @@
-depend-ack:
-	rm .depend-ack
-	touch .depend-ack
-	mkdep 'cc  -E' dummy.c | sed -e 's:^\(.\):../obj-ack//./dummy/\1:' >> .depend-ack

@@ -1,4 +1,4 @@
-/*  $Revision: 1.1.1.1 $
+/*  $Revision$
 **
 **  Editline system header file for Unix.
 */

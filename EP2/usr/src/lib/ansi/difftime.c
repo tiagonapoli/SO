@@ -1,7 +1,7 @@
 /*
  * difftime - compute the difference between two calendar times
  */
-/* $Header: /cvsup/minix/src/lib/ansi/difftime.c,v 1.1.1.1 2005/04/21 14:56:04 beng Exp $ */
+/* $Header$ */
 
 #include	<time.h>
 

@@ -5,7 +5,7 @@
  *
  * Module:	CARDINAL operations with overflow checking
  * Author:	Ceriel J.H. Jacobs
- * Version:	$Header: /cvsup/minix/src/lib/ack/libm2/ucheck.c,v 1.1 2005/10/10 15:27:46 beng Exp $
+ * Version:	$Header$
 */
 
 #ifndef EM_WSIZE

@@ -3,7 +3,7 @@
   See the copyright notice in the ACK home directory, in the file "Copyright".
 */
 
-/* $Header: /cvsup/minix/src/lib/ack/fphook/zrf4.fc,v 1.1 2005/10/10 15:27:44 beng Exp $ */
+/* $Header$ */
 
 /*
 	return a zero float (ZRF 4)

@@ -8,7 +8,7 @@ IMPLEMENTATION MODULE RealConversions;
 (*
   Module:       string-to-real and real-to-string conversions
   Author:       Ceriel J.H. Jacobs
-  Version:      $Header: /cvsup/minix/src/lib/ack/libm2/RealConver.mod,v 1.1 2005/10/10 15:27:46 beng Exp $
+  Version:      $Header$
 *)
 
 

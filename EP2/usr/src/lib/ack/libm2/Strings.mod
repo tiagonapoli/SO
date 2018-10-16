@@ -8,7 +8,7 @@ IMPLEMENTATION MODULE Strings;
 (*
   Module:       String manipulations
   Author:       Ceriel J.H. Jacobs
-  Version:      $Header: /cvsup/minix/src/lib/ack/libm2/Strings.mod,v 1.1 2005/10/10 15:27:46 beng Exp $
+  Version:      $Header$
 *)
 
   PROCEDURE Assign(source: ARRAY OF CHAR; VAR dest: ARRAY OF CHAR);

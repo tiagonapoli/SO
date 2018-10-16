@@ -1,4 +1,4 @@
-/* $Header: /cvsup/minix/src/lib/stdio/ecvt.c,v 1.1.1.1 2005/04/21 14:56:35 beng Exp $ */
+/* $Header$ */
 
 #ifndef NOFLOAT
 

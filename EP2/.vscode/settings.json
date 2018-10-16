@@ -1,5 +1,10 @@
 {
   "files.associations": {
-    "type.h": "c"
+    "type.h": "c",
+    "lib.h": "c",
+    "callnr.h": "c",
+    "syslib.h": "c",
+    "com.h": "c",
+    "resource.h": "c"
   }
 }

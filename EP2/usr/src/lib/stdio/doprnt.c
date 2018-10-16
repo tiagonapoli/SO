@@ -1,7 +1,7 @@
 /*
  * doprnt.c - print formatted output
  */
-/* $Header: /cvsup/minix/src/lib/stdio/doprnt.c,v 1.1.1.1 2005/04/21 14:56:34 beng Exp $ */
+/* $Header$ */
 
 #include	<ctype.h>
 #include	<stdio.h>

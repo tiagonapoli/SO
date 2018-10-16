@@ -5,7 +5,7 @@
  * Author: Ceriel J.H. Jacobs
  */
 
-/* $Header: /cvsup/minix/src/lib/ack/libp/sin.c,v 1.1 2005/10/10 15:27:47 beng Exp $ */
+/* $Header$ */
 
 #define __NO_DEFS
 #include <math.h>

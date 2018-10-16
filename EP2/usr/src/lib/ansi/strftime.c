@@ -1,7 +1,7 @@
 /*
  * strftime - convert a structure to a string, controlled by an argument
  */
-/* $Header: /cvsup/minix/src/lib/ansi/strftime.c,v 1.1.1.1 2005/04/21 14:56:06 beng Exp $ */
+/* $Header$ */
 
 #include	<time.h>
 #include	"loc_time.h"

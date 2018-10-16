@@ -1,7 +1,7 @@
 /*
  * mathconst.h - mathematic constants
  */
-/* $Header: /cvsup/minix/src/include/mathconst.h,v 1.1.1.1 2005/04/21 14:55:50 beng Exp $ */
+/* $Header$ */
 
 #ifndef _MATHCONST_H
 #define	_MATHCONST_H

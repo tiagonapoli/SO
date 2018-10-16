@@ -4,7 +4,7 @@
  *
  * Author: Hans van Eck
  */
-/* $Header: /cvsup/minix/src/lib/math/fmod.c,v 1.1.1.1 2005/04/21 14:56:26 beng Exp $ */
+/* $Header$ */
 
 #include	<math.h>
 #include	<errno.h>

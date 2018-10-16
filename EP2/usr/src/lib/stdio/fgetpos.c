@@ -1,7 +1,7 @@
 /*
  * fgetpos.c - get the position in the file
  */
-/* $Header: /cvsup/minix/src/lib/stdio/fgetpos.c,v 1.1.1.1 2005/04/21 14:56:35 beng Exp $ */
+/* $Header$ */
 
 #include	<stdio.h>
 

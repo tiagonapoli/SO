@@ -29,6 +29,7 @@ libc_FILES=" \
 	_execvp.c \
 	_fcntl.c \
 	_fork.c \
+  _chpriority.c \
 	_fpathconf.c \
 	_fstat.c \
 	_fstatfs.c \

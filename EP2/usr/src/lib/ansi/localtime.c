@@ -1,7 +1,7 @@
 /*
  * localtime - convert a calendar time into broken down time
  */
-/* $Header: /cvsup/minix/src/lib/ansi/localtime.c,v 1.1.1.1 2005/04/21 14:56:05 beng Exp $ */
+/* $Header$ */
 
 #include	<time.h>
 #include	"loc_time.h"

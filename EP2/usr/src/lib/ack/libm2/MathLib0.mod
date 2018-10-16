@@ -8,7 +8,7 @@ IMPLEMENTATION MODULE MathLib0;
 (*
   Module:	Some mathematical functions
   Author:	Ceriel J.H. Jacobs
-  Version:	$Header: /cvsup/minix/src/lib/ack/libm2/MathLib0.mod,v 1.1 2005/10/10 15:27:46 beng Exp $
+  Version:	$Header$
 *)
 
   IMPORT	Mathlib;

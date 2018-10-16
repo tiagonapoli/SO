@@ -1,7 +1,7 @@
 /*
  * environ.c - define the variable environ
  */
-/* $Header: /cvsup/minix/src/lib/other/environ.c,v 1.1.1.1 2005/04/21 14:56:26 beng Exp $ */
+/* $Header$ */
 /*
  * This file defines the variable environ and initializes it with a magic
  * value.  The C run-time start-off routine tests whether the variable

@@ -1,7 +1,7 @@
 /*
  * sigmisc.c - used to get a signal mask
  */
-/* $Header: /cvsup/minix/src/lib/ansi/sigmisc.c,v 1.1.1.1 2005/04/21 14:56:06 beng Exp $ */
+/* $Header$ */
 
 #if	defined(_POSIX_SOURCE)
 

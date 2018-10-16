@@ -3,7 +3,7 @@
   See the copyright notice in the ACK home directory, in the file "Copyright".
 */
 
-/* $Header: /cvsup/minix/src/lib/float/adf8.c,v 1.1.1.1 2005/04/21 14:56:10 beng Exp $ */
+/* $Header$ */
 
 /*
 	ADD TWO FLOATS - DOUBLE (ADF 8)

@@ -1,4 +1,4 @@
-/* $Header: /cvsup/minix/src/lib/ack/h/pc_err.h,v 1.1 2005/10/10 15:27:44 beng Exp $ */
+/* $Header$ */
 /*
  * (c) copyright 1987 by the Vrije Universiteit, Amsterdam, The Netherlands.
  * See the copyright notice in the ACK home directory, in the file "Copyright".

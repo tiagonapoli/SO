@@ -11,6 +11,8 @@
 #include "mproc.h"
 #include "param.h"
 
+#include <stdio.h>
+
 /*===========================================================================*
  *				do_getset				     *
  *===========================================================================*/
@@ -80,4 +82,9 @@ PUBLIC int do_getset()
 		break;	
   }
   return(r);
+}
+
+PUBLIC int do_priority() {
+  printf("TOU NO PM\n");
+  return 123;
 }

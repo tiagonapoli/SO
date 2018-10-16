@@ -3,7 +3,7 @@
   See the copyright notice in the ACK home directory, in the file "Copyright".
 */
 
-/* $Header: /cvsup/minix/src/lib/float/fef4.c,v 1.1.1.1 2005/04/21 14:56:10 beng Exp $ */
+/* $Header$ */
 
 /*
 	SEPERATE INTO EXPONENT AND FRACTION (FEF 4)

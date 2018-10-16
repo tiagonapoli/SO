@@ -31,7 +31,7 @@
  *
  * from  @(#)syslog.h	7.20 (Berkeley) 2/23/91
  * Porting to Minix by G. Falzoni <gfalzoni@inwind.it>
- * $Id: syslog.h,v 1.1 2005/10/31 14:07:07 beng Exp $
+ * $Id$
  */
 
 /*

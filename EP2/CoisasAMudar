@@ -1,15 +1,19 @@
-callnr.h -> Guarda os numeros das system calls
-com.h -> Guarda os numeros das system calls
-syslib.h -> Prototipos de funcao de system calls
-system.c -> mapping de chamada de system a funcao
-system.h -> prototipo da funcao a ser chamada na syscall
-do_fork.c -> Teriamos que criar um arquivo pra funcao
+[DONE] callnr.h -> Guarda os numeros das system calls
+[DONE] com.h -> Guarda os numeros das system calls
+[] com.h -> Colocar as definicoes de protocolo de mensagem
+[] -> Definir o protocolo de mensagem a ser usado
+[DONE] syslib.h -> Prototipos de funcao de system calls
+[DONE] system.c -> mapping de chamada de system a funcao
+[DONE] system.h -> prototipo a ser chamado caso a funcao nao esteja setada para ser usada
+[DONE] do_fork.c -> Teriamos que criar um arquivo pra funcao
+[DONE] config.h -> Colocar configuracao para USE_CHPRIORITY
+[DONE] -> Alterar makefile kernel
+[DONE] -> Adicionar prototipo de funcao ao unistd.h
+[DONE] -> Criar arquivo _chpriority em lib/posix
+[DONE] -> Criar arquivo chpriority.s em lib/syscall
 
 Tabela de processos de fs,pm
 
 pm -> forkexit
-
-
-
 
 VER O QUER p_rts_flags FAZ

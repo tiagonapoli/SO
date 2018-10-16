@@ -1,7 +1,7 @@
 /*
  * fflush.c - flush stream(s)
  */
-/* $Header: /cvsup/minix/src/lib/stdio/fflush.c,v 1.3 2006/02/02 16:59:07 beng Exp $ */
+/* $Header$ */
 
 #include	<sys/types.h>
 #include	<stdio.h>

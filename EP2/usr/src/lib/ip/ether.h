@@ -1,4 +1,4 @@
-/* $Id: ether.h,v 1.1.1.1 2005/04/21 14:56:15 beng Exp $ */
+/* $Id$ */
 
 /* Interface definitions for ethernet access library */
 

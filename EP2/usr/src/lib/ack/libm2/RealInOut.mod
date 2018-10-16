@@ -8,7 +8,7 @@ IMPLEMENTATION MODULE RealInOut;
 (*
   Module:       InOut for REAL numbers
   Author:	Ceriel J.H. Jacobs
-  Version:      $Header: /cvsup/minix/src/lib/ack/libm2/RealInOut.mod,v 1.1 2005/10/10 15:27:46 beng Exp $
+  Version:      $Header$
 *)
 
   FROM	InOut IMPORT	ReadString, WriteString, WriteOct;

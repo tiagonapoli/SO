@@ -2,7 +2,7 @@
  * (c) copyright 1987 by the Vrije Universiteit, Amsterdam, The Netherlands.
  * See the copyright notice in the ACK home directory, in the file "Copyright".
  */
-/* $Header: /cvsup/minix/src/lib/ansi/errlist.c,v 1.4 2006/02/17 13:44:48 philip Exp $ */
+/* $Header$ */
 
 #include	<errno.h>
 

@@ -6,7 +6,7 @@ IMPLEMENTATION MODULE CSP;
 		M. Collado, R. Morales, J.J. Moreno,
 		SIGPlan Notices, Volume 22, Number 6, June 1987.
 		Some modifications by Ceriel J.H. Jacobs
-  Version:	$Header: /cvsup/minix/src/lib/ack/libm2/CSP.mod,v 1.1 2005/10/10 15:27:46 beng Exp $
+  Version:	$Header$
 
    See this article for an explanation of the use of this module.
 *)

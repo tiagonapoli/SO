@@ -3,7 +3,7 @@
   See the copyright notice in the ACK home directory, in the file "Copyright".
 */
 
-/* $Header: /cvsup/minix/src/lib/float/adder.c,v 1.1.1.1 2005/04/21 14:56:10 beng Exp $ */
+/* $Header$ */
 
 /*
  *	these are the routines the routines to do 32 and  64-bit addition

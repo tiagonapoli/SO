@@ -140,6 +140,11 @@ PRIVATE void initialize(void)
   map(SYS_EXEC, do_exec);		/* update process after execute */
   map(SYS_EXIT, do_exit);		/* clean up after process exit */
   map(SYS_NICE, do_nice);		/* set scheduling priority */
+
+  /*#########################################*/
+  map(SYS_PRIORITY, do_priority); 	
+  /*#########################################*/
+
   map(SYS_PRIVCTL, do_privctl);		/* system privileges control */
   map(SYS_TRACE, do_trace);		/* request a trace operation */
 

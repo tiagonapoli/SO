@@ -6,7 +6,7 @@
 (* 
   Module:       Interface to termcap database
   From:         Unix manual chapter 3 
-  Version:      $Header: /cvsup/minix/src/lib/ack/libm2/Termcap.mod,v 1.1 2005/10/10 15:27:46 beng Exp $ 
+  Version:      $Header$ 
 *)
 
 (*$R-*)

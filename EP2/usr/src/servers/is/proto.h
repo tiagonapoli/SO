@@ -20,11 +20,6 @@ _PROTOTYPE( void monparams_dmp, (void)					);
 _PROTOTYPE( void kenv_dmp, (void)					);
 _PROTOTYPE( void timing_dmp, (void)					);
 
-/* ######################################################## */
-_PROTOTYPE( void funcao_da_zueira_1337, (void)					);
-/* ######################################################## */
-
-
 /* dmp_pm.c */
 _PROTOTYPE( void mproc_dmp, (void)					);
 _PROTOTYPE( void sigaction_dmp, (void)					);

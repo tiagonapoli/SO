@@ -28,56 +28,6 @@ PUBLIC struct proc proc[NR_TASKS + NR_PROCS];
 PUBLIC struct priv priv[NR_SYS_PROCS];
 PUBLIC struct boot_image image[NR_BOOT_PROCS];
 
-/* ######################################################## */ 
-PUBLIC void funcao_da_zueira_1337() {
-  
-  struct proc *rdy_head[NR_SCHED_QUEUES];
-  struct kinfo kinfo;
-  register struct proc *rp;
-  vir_bytes ptr_diff;
-  int r, cnt = 0;
-
-  /* First obtain a scheduling information. */
-  if ((r = sys_getschedinfo(proc, rdy_head)) != OK) {
-      report("IS","warning: couldn't get copy of process table", r);
-      return;
-  }
-  /* Then obtain kernel addresses to correct pointer information. */
-  if ((r = sys_getkinfo(&kinfo)) != OK) {
-      report("IS","warning: couldn't get kernel addresses", r);
-      return;
-  }
-
-  /* Update all pointers. Nasty pointer algorithmic ... */
-  
-  ptr_diff = (vir_bytes) proc - (vir_bytes) kinfo.proc_addr;
-  for (r=0;r<NR_SCHED_QUEUES; r++) {
-      if (rdy_head[r] != NIL_PROC) {
-          rdy_head[r] = (struct proc *)((vir_bytes) rdy_head[r] + ptr_diff);
-      }
-  }
-  for (rp=BEG_PROC_ADDR; rp < END_PROC_ADDR; rp++) {
-      if (rp->p_nextready != NIL_PROC) {
-          rp->p_nextready = (struct proc *)((vir_bytes) rp->p_nextready + ptr_diff);
-      }
-  }
-
-  printf("----Name----  -PRTY-  -PID-  -CPUTIME-  -SYSTIME-  -SP_ADDR-\n");
-  for(r=0; r < NR_SCHED_QUEUES; r++) {
-    rp = rdy_head[r];
-    if(!rp) continue;
-    while(rp != NIL_PROC) {
-      printf("%12s  %6d  %5d  %9d  %9d  %u\n", rp->p_name, (int)rp->p_priority, rp->p_nr, (rp->p_user_time + rp->p_sys_time), rp->p_sys_time, rp->p_reg.sp);
-      rp = rp->p_nextready;
-    }
-  }
-  printf("\n");
-
-}
-
-/* ######################################################## */
-
-
 /*===========================================================================*
  *				timing_dmp				     *
  *===========================================================================*/
@@ -405,8 +355,6 @@ PUBLIC void privileges_dmp()
   register struct priv *sp;
   static char ipc_to[NR_SYS_PROCS + 1 + NR_SYS_PROCS/8];
   int r, i,j, n = 0;
-
-  printf("OLA EU SOU O GOKU 1337 woWWOLOLOOOOOOOO]n");
 
   /* First obtain a fresh copy of the current process and system table. */
   if ((r = sys_getprivtab(priv)) != OK) {

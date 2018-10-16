@@ -3,7 +3,7 @@
   See the copyright notice in the ACK home directory, in the file "Copyright".
 */
 
-/* $Header: /cvsup/minix/src/lib/float/get_put.h,v 1.1.1.1 2005/04/21 14:56:11 beng Exp $ */
+/* $Header$ */
 
 #include <byte_order.h>
 

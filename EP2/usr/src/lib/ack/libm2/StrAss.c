@@ -7,7 +7,7 @@
   Module:	assign string to character array, with possible 0-byte
 		extension
   Author:	Ceriel J.H. Jacobs
-  Version:	$Header: /cvsup/minix/src/lib/ack/libm2/StrAss.c,v 1.1 2005/10/10 15:27:46 beng Exp $
+  Version:	$Header$
 */
 StringAssign(dstsiz, srcsiz, dstaddr, srcaddr)
 	register char *dstaddr, *srcaddr;

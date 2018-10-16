@@ -8,7 +8,7 @@ IMPLEMENTATION MODULE Traps;
 (*
   Module:       Facility for handling traps
   Author:       Ceriel J.H. Jacobs
-  Version:      $Header: /cvsup/minix/src/lib/ack/libm2/Traps.mod,v 1.1 2005/10/10 15:27:46 beng Exp $
+  Version:      $Header$
 *)
 
   FROM	EM IMPORT	SIG, LINO, FILN, TRP;

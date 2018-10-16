@@ -6,7 +6,7 @@
 /*
   Module:	implementation of DIV and MOD
   Author:	Ceriel J.H. Jacobs
-  Version:	$Header: /cvsup/minix/src/lib/ack/libm2/dvi.c,v 1.1 2005/10/10 15:27:46 beng Exp $
+  Version:	$Header$
   Reason:	We cannot use DVI and RMI, because DVI rounds towards 0
 		and Modula-2 requires truncation
 */

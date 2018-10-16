@@ -1,7 +1,7 @@
 /*
  * mktime - convert local time into calendar time
  */
-/* $Header: /cvsup/minix/src/lib/ansi/mktime.c,v 1.1.1.1 2005/04/21 14:56:06 beng Exp $ */
+/* $Header$ */
 
 /* Michael A. Temari <temari@ix.netcom.com>   03/01/96    */
 /*   -  fixed bug is structure fixup code                 */

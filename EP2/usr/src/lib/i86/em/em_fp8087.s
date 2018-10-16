@@ -4,7 +4,7 @@
 .define .cmf4, .cmf8
 .sect .text; .sect .rom; .sect .data; .sect .bss
 
-!	$Header: /cvsup/minix/src/lib/i86/em/em_fp8087.s,v 1.1.1.1 2005/04/21 14:56:13 beng Exp $
+!	$Header$
 
 !	Implement interface to floating point package for Intel 8087
 

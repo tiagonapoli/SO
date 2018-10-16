@@ -1,7 +1,7 @@
 /*
  * loc_time.h - some local definitions
  */
-/* $Header: /cvsup/minix/src/lib/ansi/loc_time.h,v 1.1.1.1 2005/04/21 14:56:05 beng Exp $ */
+/* $Header$ */
 
 #define	YEAR0		1900			/* the first year */
 #define	EPOCH_YR	1970		/* EPOCH = Jan 1 1970 00:00:00 */

@@ -1,7 +1,7 @@
 /*
  * fdopen - convert a (UNIX) file descriptor into a FILE pointer
  */
-/* $Header: /cvsup/minix/src/lib/other/fdopen.c,v 1.2 2005/09/06 10:15:57 beng Exp $ */
+/* $Header$ */
 
 #include	<stdlib.h>
 #include	"../stdio/loc_incl.h"

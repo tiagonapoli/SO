@@ -4,7 +4,7 @@
  *
  * Author: Ceriel J.H. Jacobs
  */
-/* $Header: /cvsup/minix/src/lib/math/sinh.c,v 1.1.1.1 2005/04/21 14:56:26 beng Exp $ */
+/* $Header$ */
 
 #include	<math.h>
 #include	<float.h>

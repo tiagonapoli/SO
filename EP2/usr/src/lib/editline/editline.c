@@ -1,4 +1,4 @@
-/*  $Revision: 1.1.1.1 $
+/*  $Revision$
 **
 **  Main editing routines for editline library.
 */

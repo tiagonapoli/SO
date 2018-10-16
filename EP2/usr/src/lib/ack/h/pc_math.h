@@ -1,7 +1,7 @@
 /*
  * localmath.h - This header is used by the mathematical library.
  */
-/* $Header: /cvsup/minix/src/lib/ack/h/pc_math.h,v 1.1 2005/10/10 15:27:44 beng Exp $ */
+/* $Header$ */
 
 /* some constants (Hart & Cheney) */
 #define	M_PI		3.14159265358979323846264338327950288

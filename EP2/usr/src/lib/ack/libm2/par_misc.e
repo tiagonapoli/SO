@@ -7,7 +7,7 @@
 ;
 ; Module:	coroutine primitives
 ; Author:	Kees Bot, Edwin Scheffer, Ceriel Jacobs
-; Version:	$Header: /cvsup/minix/src/lib/ack/libm2/par_misc.e,v 1.1 2005/10/10 15:27:46 beng Exp $
+; Version:	$Header$
 ;
 
  mes 2,_EM_WSIZE,_EM_PSIZE

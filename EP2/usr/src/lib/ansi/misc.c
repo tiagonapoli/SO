@@ -1,7 +1,7 @@
 /*
  * misc - data and miscellaneous routines
  */
-/* $Header: /cvsup/minix/src/lib/ansi/misc.c,v 1.2 2005/06/17 13:00:04 jnherder Exp $ */
+/* $Header$ */
 
 #include	<ctype.h>
 #include	<time.h>

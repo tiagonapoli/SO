@@ -3,7 +3,7 @@
   See the copyright notice in the ACK home directory, in the file "Copyright".
 */
 
-/* $Header: /cvsup/minix/src/lib/float/mlf8.c,v 1.1.1.1 2005/04/21 14:56:11 beng Exp $ */
+/* $Header$ */
 
 /*
  * Multiply Double Precision Float (MLF 8)

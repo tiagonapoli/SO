@@ -1,7 +1,7 @@
 /* 
  * putw - write an word on a stream
  */
-/* $Header: /cvsup/minix/src/lib/other/putw.c,v 1.1.1.1 2005/04/21 14:56:27 beng Exp $ */
+/* $Header$ */
 
 #include	<stdio.h>
 

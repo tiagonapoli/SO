@@ -1,4 +1,4 @@
-/* $Header: /cvsup/minix/src/lib/i386/head/em_abs.h,v 1.1.1.1 2005/04/21 14:56:12 beng Exp $ */
+/* $Header$ */
 /*
  * (c) copyright 1987 by the Vrije Universiteit, Amsterdam, The Netherlands.
  * See the copyright notice in the ACK home directory, in the file "Copyright".

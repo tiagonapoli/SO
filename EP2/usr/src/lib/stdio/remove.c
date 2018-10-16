@@ -1,7 +1,7 @@
 /*
  * remove.c - remove a file
  */
-/* $Header: /cvsup/minix/src/lib/stdio/remove.c,v 1.1.1.1 2005/04/21 14:56:36 beng Exp $ */
+/* $Header$ */
 
 #include	<stdio.h>
 

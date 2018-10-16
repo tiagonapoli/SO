@@ -3,7 +3,7 @@
   See the copyright notice in the ACK home directory, in the file "Copyright".
 */
 
-/* $Header: /cvsup/minix/src/lib/ack/fphook/FP_types.h,v 1.1 2005/10/10 15:27:43 beng Exp $ */
+/* $Header$ */
 
 /********************************************************/
 /*

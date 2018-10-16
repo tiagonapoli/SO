@@ -3,7 +3,7 @@ IMPLEMENTATION MODULE Processes [1];
 (*
   Module:       Processes
   From:         "Programming in Modula-2", 3rd, corrected edition, by N. Wirth
-  Version:      $Header: /cvsup/minix/src/lib/ack/libm2/Processes.mod,v 1.1 2005/10/10 15:27:46 beng Exp $
+  Version:      $Header$
 *)
 
   FROM	SYSTEM IMPORT	ADDRESS, TSIZE, NEWPROCESS, TRANSFER;

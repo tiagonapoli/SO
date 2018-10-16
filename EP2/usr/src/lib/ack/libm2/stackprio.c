@@ -6,7 +6,7 @@
 /*
   Module:	Dummy priority routines
   Author:	Ceriel J.H. Jacobs
-  Version:	$Header: /cvsup/minix/src/lib/ack/libm2/stackprio.c,v 1.1 2005/10/10 15:27:46 beng Exp $
+  Version:	$Header$
 */
 
 static unsigned prio = 0;

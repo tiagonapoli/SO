@@ -1,7 +1,7 @@
 /*
  * fgets.c - get a string from a file
  */
-/* $Header: /cvsup/minix/src/lib/stdio/fgets.c,v 1.1.1.1 2005/04/21 14:56:35 beng Exp $ */
+/* $Header$ */
 
 #include	<stdio.h>
 

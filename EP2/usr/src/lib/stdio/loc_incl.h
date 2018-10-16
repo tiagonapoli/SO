@@ -1,7 +1,7 @@
 /*
  * loc_incl.h - local include file for stdio library
  */
-/* $Header: /cvsup/minix/src/lib/stdio/loc_incl.h,v 1.1.1.1 2005/04/21 14:56:36 beng Exp $ */
+/* $Header$ */
 
 #include	<stdio.h>
 

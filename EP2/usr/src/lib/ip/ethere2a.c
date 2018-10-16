@@ -1,4 +1,4 @@
-/* $Id: ethere2a.c,v 1.1.1.1 2005/04/21 14:56:16 beng Exp $ */
+/* $Id$ */
 /* This file was part of the etherlib package. */
 
 #include <stdio.h>

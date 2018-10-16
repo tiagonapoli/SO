@@ -1,4 +1,4 @@
-/* $Header: /cvsup/minix/src/lib/ansi/atexit.c,v 1.1.1.1 2005/04/21 14:56:04 beng Exp $ */
+/* $Header$ */
 
 #include	<stdlib.h>
 

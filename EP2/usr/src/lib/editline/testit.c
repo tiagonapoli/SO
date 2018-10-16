@@ -1,4 +1,4 @@
-/*  $Revision: 1.1.1.1 $
+/*  $Revision$
 **
 **  A "micro-shell" to test editline library.
 **  If given any arguments, commands aren't executed.

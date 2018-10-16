@@ -2,7 +2,7 @@
  * (c) copyright 1989 by the Vrije Universiteit, Amsterdam, The Netherlands.
  * See the copyright notice in the ACK home directory, in the file "Copyright".
  */
-/* $Header: /cvsup/minix/src/lib/other/putenv.c,v 1.1.1.1.8.1 2006/05/03 21:13:45 beng Exp $ */
+/* $Header$ */
 
 #include	<stdlib.h>
 #include	<string.h>

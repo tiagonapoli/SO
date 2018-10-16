@@ -6,7 +6,7 @@
 /*
   Module:	SYSTEM
   Author:	Ceriel J.H. Jacobs
-  Version:	$Header: /cvsup/minix/src/lib/ack/libm2/SYSTEM.c,v 1.1 2005/10/10 15:27:46 beng Exp $
+  Version:	$Header$
 */
 
 /*

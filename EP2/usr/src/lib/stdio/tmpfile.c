@@ -1,7 +1,7 @@
 /*
  * tmpfile.c - create and open a temporary file
  */
-/* $Header: /cvsup/minix/src/lib/stdio/tmpfile.c,v 1.1.1.1 2005/04/21 14:56:36 beng Exp $ */
+/* $Header$ */
 
 #if	defined(_POSIX_SOURCE)
 #include	<sys/types.h>

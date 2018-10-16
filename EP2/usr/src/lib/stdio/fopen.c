@@ -1,7 +1,7 @@
 /*
  * fopen.c - open a stream
  */
-/* $Header: /cvsup/minix/src/lib/stdio/fopen.c,v 1.4 2006/02/02 16:59:07 beng Exp $ */
+/* $Header$ */
 
 #if	defined(_POSIX_SOURCE)
 #include	<sys/types.h>

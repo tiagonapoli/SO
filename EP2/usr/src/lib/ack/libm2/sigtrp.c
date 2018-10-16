@@ -7,7 +7,7 @@
   Module:	Mapping of Unix signals to EM traps
 		(only when not using the MON instruction)
   Author:	Ceriel J.H. Jacobs
-  Version:	$Header: /cvsup/minix/src/lib/ack/libm2/sigtrp.c,v 1.1 2005/10/10 15:27:46 beng Exp $
+  Version:	$Header$
 */
 
 #if !defined(__em22) && !defined(__em24) && !defined(__em44)

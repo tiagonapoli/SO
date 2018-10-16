@@ -1,7 +1,7 @@
 /*
  * perror.c - print an error message on the standard error output
  */
-/* $Header: /cvsup/minix/src/lib/stdio/perror.c,v 1.1.1.1 2005/04/21 14:56:36 beng Exp $ */
+/* $Header$ */
 
 #if	defined(_POSIX_SOURCE)
 #include	<sys/types.h>

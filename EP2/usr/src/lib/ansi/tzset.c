@@ -1,7 +1,7 @@
 /*
  * tzset - set timezone information
  */
-/* $Header: /cvsup/minix/src/lib/ansi/tzset.c,v 1.1.1.1 2005/04/21 14:56:06 beng Exp $ */
+/* $Header$ */
 
 /* This function is present for System V && POSIX */
 

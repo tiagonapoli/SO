@@ -14,7 +14,7 @@ struct complex {
 _PROTOTYPE(double hypot, (double x, double y ));
 _PROTOTYPE(double cabs, (struct complex p_compl ));
 
-/* $Header: /cvsup/minix/src/lib/other/hypot.c,v 1.1.1.1 2005/04/21 14:56:27 beng Exp $ */
+/* $Header$ */
 
 double
 hypot(x, y)

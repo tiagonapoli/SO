@@ -1,7 +1,7 @@
 /*
  * asctime - print a date
  */
-/* $Header: /cvsup/minix/src/lib/ansi/asctime.c,v 1.1.1.1 2005/04/21 14:56:04 beng Exp $ */
+/* $Header$ */
 
 #include	<string.h>
 #include	<time.h>

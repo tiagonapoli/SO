@@ -5,7 +5,7 @@
  *
  * Module:	range checks for LONGCARD
  * Author:	Ceriel J.H. Jacobs
- * Version:	$Header: /cvsup/minix/src/lib/ack/libm2/rckul.c,v 1.1 2005/10/10 15:27:46 beng Exp $
+ * Version:	$Header$
 */
 
 #include <em_abs.h>

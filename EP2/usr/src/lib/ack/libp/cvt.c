@@ -1,4 +1,4 @@
-/* $Header: /cvsup/minix/src/lib/ack/libp/cvt.c,v 1.1 2005/10/10 15:27:46 beng Exp $ */
+/* $Header$ */
 #ifndef NOFLOAT
 
 #if __STDC__

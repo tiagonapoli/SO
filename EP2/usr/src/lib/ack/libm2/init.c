@@ -6,7 +6,7 @@
 /*
   Module:	initialization and some global vars
   Author:	Ceriel J.H. Jacobs
-  Version:	$Header: /cvsup/minix/src/lib/ack/libm2/init.c,v 1.2 2006/02/17 14:12:47 philip Exp $
+  Version:	$Header$
 */
 
 #include <signal.h>

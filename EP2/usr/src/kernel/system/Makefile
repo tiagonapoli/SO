@@ -47,6 +47,9 @@ OBJECTS	= \
 	$(SYSTEM)(do_iopenable.o) \
 	$(SYSTEM)(do_vm.o) \
 	$(SYSTEM)(do_vm_setbuf.o) \
+	$(SYSTEM)(do_priority.o) \
+################# LINHA ACIMA ALTERADA ######################
+	
 
 $(SYSTEM):	$(OBJECTS)
 	aal cr $@ *.o
@@ -81,6 +84,11 @@ $(SYSTEM)(do_trace.o):	do_trace.c
 
 $(SYSTEM)(do_nice.o):	do_nice.c
 	$(CC) do_nice.c
+
+#############################################
+$(SYSTEM)(do_priority.o):	do_priority.c
+	$(CC) do_priority.c
+#############################################
 
 $(SYSTEM)(do_times.o):	do_times.c
 	$(CC) do_times.c

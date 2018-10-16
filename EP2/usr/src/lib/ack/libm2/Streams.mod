@@ -9,7 +9,7 @@ IMPLEMENTATION MODULE Streams;
 (*
   Module:       Stream Input/Output
   Author:       Ceriel J.H. Jacobs
-  Version:      $Header: /cvsup/minix/src/lib/ack/libm2/Streams.mod,v 1.1 2005/10/10 15:27:46 beng Exp $
+  Version:      $Header$
 
   Implementation for Unix
 *)

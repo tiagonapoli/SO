@@ -1,5 +1,5 @@
 #
-; $Header: /cvsup/minix/src/lib/ack/libp/fif.e,v 1.1 2005/10/10 15:27:46 beng Exp $
+; $Header$
 ;
 ; (c) copyright 1983 by the Vrije Universiteit, Amsterdam, The Netherlands.
 ;

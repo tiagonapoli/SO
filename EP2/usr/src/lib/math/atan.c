@@ -4,7 +4,7 @@
  *
  * Author: Ceriel J.H. Jacobs
  */
-/* $Header: /cvsup/minix/src/lib/math/atan.c,v 1.1.1.1 2005/04/21 14:56:24 beng Exp $ */
+/* $Header$ */
 
 #include	<float.h>
 #include	<math.h>

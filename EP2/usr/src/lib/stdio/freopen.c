@@ -1,7 +1,7 @@
 /*
  * freopen.c - open a file and associate a stream with it
  */
-/* $Header: /cvsup/minix/src/lib/stdio/freopen.c,v 1.4 2006/02/02 16:59:07 beng Exp $ */
+/* $Header$ */
 
 #if	defined(_POSIX_SOURCE)
 #include	<sys/types.h>

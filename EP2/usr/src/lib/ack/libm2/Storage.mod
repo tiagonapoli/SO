@@ -9,7 +9,7 @@ IMPLEMENTATION MODULE Storage;
   Module:	Dynamic Storage Allocation
   Author:	Ceriel J.H. Jacobs
 		Adapted from a version in C by Hans Tebra
-  Version:	$Header: /cvsup/minix/src/lib/ack/libm2/Storage.mod,v 1.1 2005/10/10 15:27:46 beng Exp $
+  Version:	$Header$
 *)
 (* This storage manager maintains an array of lists of objects with the
    same size. Commonly used sizes have their own bucket. The larger ones

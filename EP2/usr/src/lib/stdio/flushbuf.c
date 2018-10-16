@@ -1,7 +1,7 @@
 /*
  * flushbuf.c - flush a buffer
  */
-/* $Id: flushbuf.c,v 1.1.1.1 2005/04/21 14:56:35 beng Exp $ */
+/* $Id$ */
 
 #include	<stdio.h>
 #include	<stdlib.h>
