@@ -24,12 +24,11 @@ Criada a função `priority_dmp()` que imprime os processos e suas respectivas p
 Para a segunda parte, foram alterados/criados os seguintes arquivos:
 
 ```
-/usr/src/servers/pm/getset.c
+/usr/src/servers/pm/chpriority.c (criado)
 /usr/src/servers/pm/table.c
 /usr/src/servers/pm/proto.h
 
 /usr/src/servers/fs/table.c
-/usr/src/servers/fs/proto.h
 
 /usr/src/include/minix/callnr.h
 /usr/src/include/minix/com.h
@@ -42,7 +41,7 @@ Para a segunda parte, foram alterados/criados os seguintes arquivos:
 /usr/src/kernel/system.h
 
 /usr/src/lib/posix/Makefile
-/usr/src/lib/posix/_chpriority (criado)
+/usr/src/lib/posix/_chpriority.c (criado)
 
 /usr/src/lib/syslib/Makefile
 /usr/src/lib/syslib/sys_priority.c (criado)
@@ -51,7 +50,7 @@ Para a segunda parte, foram alterados/criados os seguintes arquivos:
 /usr/src/lib/syscall/chpriority.s (criado)
 ```
 
-Em geral, as alterações foram simples, baseando-se na _system call_ **FORK**.
+Em geral, as alterações foram simples, baseando-se na _system call_ **FORK**. As funções mais complicadas, em `/usr/src/servers/pm/chpriority.c` e `/usr/src/kernel/system/do_priority.c`` foram baseadas na _system call_ **NICE**. 
 
 Foram criadas definições de `_PROTOTYPE` e adicionadas interfaces de funções nas pastas `/usr/src/src/pm/` e `/usr/src/servers/fs`, _process manager_ e _file system_ respectivamente.
 
