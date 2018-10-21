@@ -38,15 +38,41 @@ PUBLIC void priority_dmp()
     int i, n = 0;
     static int prev_i = 0;
 
+    /* to sort */
+    struct proc *p1, *p2;
+    static int sort = 1;
+    int j, k, l, aux = 0;
+    static int indexes[NR_PROCS];
+
     getsysinfo(PM_PROC_NR, SI_PROC_TAB, mproc);
     sys_getproctab(proc);
+
+    if (sort)
+    {
+        for (l = 0; l < NR_PROCS; l++)
+            indexes[l] = l;
+        for (k = 0; k < NR_PROCS - 1; k++)
+        {
+            for (j = 0; j < NR_PROCS - k - 1; j++)
+            {
+                p1 = &proc[indexes[j] + NR_TASKS];
+                p2 = &proc[indexes[j + 1] + NR_TASKS];
+                if (p1->p_priority > p2->p_priority)
+                {
+                    aux = indexes[j];
+                    indexes[j] = indexes[j + 1];
+                    indexes[j + 1] = aux;
+                }
+            }
+        }
+    }
 
     printf("EP2 Parte 2 - MAC422 Sstemas Operacionais");
     printf("-prio- -pid- ---name--- -cpu-time- -sys_time- -p_addr-\n");
     for (i = prev_i; i < NR_PROCS; i++)
     {
-        mp = &proc[i];
-        rp = &proc[i + NR_TASKS];
+        mp = &proc[indexes[i];
+        rp = &proc[indexes[i] + NR_TASKS];
         if (mp->mp_pid == 0 && i != PM_PROC_NR)
             continue;
         if (++n > 22)
@@ -62,9 +88,15 @@ PUBLIC void priority_dmp()
     }
 
     if (i >= NR_PROCS)
+    {
         i = 0;
+        sort = 1;
+    }
     else
+    {
+        sort = 0;
         printf("-more-\r");
+    }
     prev_i = i;
 }
 /* ########################################################### */
