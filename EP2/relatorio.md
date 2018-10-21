@@ -50,7 +50,7 @@ Para a segunda parte, foram alterados/criados os seguintes arquivos:
 /usr/src/lib/syscall/chpriority.s (criado)
 ```
 
-Em geral, as alterações foram simples, baseando-se na _system call_ **FORK**. As funções mais complicadas, em `/usr/src/servers/pm/chpriority.c` e `/usr/src/kernel/system/do_priority.c`` foram baseadas na _system call_ **NICE**. 
+Em geral, as alterações foram simples, baseando-se na _system call_ **FORK**. As funções mais complicadas, em `/usr/src/servers/pm/chpriority.c` e `/usr/src/kernel/system/do_priority.c` foram baseadas na _system call_ **NICE**. 
 
 Foram criadas definições de `_PROTOTYPE` e adicionadas interfaces de funções nas pastas `/usr/src/src/pm/` e `/usr/src/servers/fs`, _process manager_ e _file system_ respectivamente.
 
