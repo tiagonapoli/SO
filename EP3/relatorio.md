@@ -1,6 +1,7 @@
 # Relatório EP3 - MAC422 Sistemas Operacionais
 
 Ricardo Kojo - 10295429
+
 Tiago Nápoli - 9345384
 
 ## Parte 1:
